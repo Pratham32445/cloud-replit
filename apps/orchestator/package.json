@@ -1,0 +1,19 @@
+{
+  "name": "orchestator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.22.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "yaml": "^2.6.0"
+  }
+}
